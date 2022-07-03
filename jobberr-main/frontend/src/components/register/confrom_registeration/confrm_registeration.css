@@ -1,0 +1,55 @@
+/* 1920x1080 */
+.confrmRegWrapper{
+    width: 100%;
+    height: 100vh;
+    background: #E5E5E5;
+}
+.confrmRegDiv{
+    padding: 3%;
+    background: white;
+    width: 35%;
+    border-radius: 3%;
+    margin: 0 auto;
+    transform: translate(0,50%);
+}
+.confrmRegSubmit{
+    background: #1C3E42;
+}
+.confrmRegSubmit:hover{
+    background: #1C3E42;
+}
+
+
+
+/* 1366x768 */
+@media screen and (max-width: 1366px) {
+
+}
+
+
+
+/* 1280x1024 */
+@media screen and (max-width: 1280px) {
+    .confrmRegDiv{
+        transform: translate(0,80%);
+    }
+}
+
+
+
+/* 1024x768 */
+@media screen and (max-width: 1024px) {
+    .confrmRegDiv{
+        width: 40%;
+    }
+}
+
+
+
+/* 575 */
+@media screen and (max-width: 575px) {
+    .confrmRegDiv{
+        width: 75%;
+        transform: translate(0,100%);
+    }
+}

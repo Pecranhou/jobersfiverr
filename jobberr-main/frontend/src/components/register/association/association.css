@@ -1,0 +1,50 @@
+/*  1920x1080 */
+.registerAssWrapper{
+    width: 100%;
+    height: 100vh;
+    overflow-y: auto;
+    background: #E5E5E5;
+}
+.registerAssDiv{
+    padding: 5%;
+    transform: translate(70%,0);
+    width: 40%;
+}
+.regAssCheck{
+    background: white;
+    padding: 3%;
+    border-radius: 10px;
+    margin-bottom: 10%;
+}
+.regAssSubmitButton{
+    background: #1C3E42;
+    padding: 2.5%;
+}
+.regAssSubmitButton:hover{
+    background: #1C3E42;
+    padding: 2.5%;
+}
+.regAssMultiField{
+    transform: translate(-3%,0);
+}
+
+/*  1366x768 */
+@media screen and (max-width: 1366px) {
+
+}
+/*  1280x1024 */
+@media screen and (max-width: 1280px) {
+
+}
+/*  1024x768 */
+@media screen and (max-width: 1024px) {
+
+}
+/*  575 */
+@media screen and (max-width: 575px) {
+    .registerAssDiv{
+        padding: 2%;
+        transform: translate(23%,0);
+        width: 70%;
+    }
+}

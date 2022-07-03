@@ -1,0 +1,31 @@
+.regBusinessBtn1,.regBusinessBtn2{
+    color: #1C3E42;
+    background: white;
+    border: 1px solid #1C3E42;
+    outline: none;
+}
+.regBusinessBtn1:hover,.regBusinessBtn2:hover{
+    background: #1C3E42;
+    color: white;
+    border: 1px solid #1C3E42;
+    outline: none;
+}
+.regBusinessBtn1{
+    margin-left: 70%;
+}
+.regBusinessBtn2{
+    margin-left: 2%;
+}
+.pageToggleButtons{
+    margin-bottom: 5%;
+}
+
+
+@media screen and (max-width: 575px) {
+    .regBusinessBtn1{
+        margin-left: 10%;
+    }
+    .regBusinessBtn2{
+        margin-left: 2%;
+    }
+}

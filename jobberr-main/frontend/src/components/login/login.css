@@ -1,0 +1,95 @@
+/* 1920x1080 screen */
+
+.loginWrapper{
+    width: 100%;
+    height: 100vh;
+    background: #E5E5E5;
+    margin: 0 auto;
+}
+.loginDiv{
+    background: #FFFFFF;
+    width: 50%;
+    height: 75%;
+    transform: translate(50%,15%);
+    border-radius: 3%;
+    padding: 8%;
+}
+.mainHead{
+    font-weight: 900;
+}
+.desc{
+    color: #667085;
+}
+.mainHeadSpan{
+    font-weight: 900;
+    color: #00c100;
+}
+.loginSubmitButton{
+    width: 100%;
+    background: #1C3E42;
+}
+.loginSubmitButton:hover{
+    width: 100%;
+    background: #1C3E42;
+}
+.inputLabel{
+    color: #344054;
+}
+.loginOptions{
+    color: #152F32;
+    font-weight: bold;
+}
+
+
+
+
+/* 1366x768 screen */
+@media screen and (max-width: 1366px) {
+    .loginDiv{
+        height: 80%;
+        padding-left: 7%;
+        padding-right: 7%;
+        padding-top: 1%;
+    }
+}
+
+
+
+
+/* 1280x1024 screen */
+@media screen and (max-width: 1280px) {
+    .loginDiv{
+        padding-left: 7%;
+        padding-right: 7%;
+        padding-top: 9%;
+    }
+}
+
+
+
+
+/* 1024x768 screen */
+@media screen and (max-width: 1024px) {
+    .loginDiv{
+        padding-left: 7%;
+        padding-right: 7%;
+        padding-top: 5%;
+    }
+}
+
+
+
+
+/* 575x700 screen */
+@media screen and (max-width: 575px) {
+    .loginDiv{
+        background: #FFFFFF;
+        width: 90%;
+        height: 80%;
+        transform: translate(6%,13%);
+        border-radius: 3%;
+        padding-left: 7%;
+        padding-right: 7%;
+        padding-top: 9%;
+    }
+}

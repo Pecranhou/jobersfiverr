@@ -1,0 +1,313 @@
+{
+	"info": {
+		"_postman_id": "30ddc244-2c3f-466a-bf25-a90f058e145a",
+		"name": "Jobers",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Authentication",
+			"item": [
+				{
+					"name": "Register Student",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "fname",
+									"value": "test",
+									"type": "default"
+								},
+								{
+									"key": "lname",
+									"value": "test",
+									"type": "default"
+								},
+								{
+									"key": "email",
+									"value": "test@gmail.com",
+									"type": "default"
+								},
+								{
+									"key": "password",
+									"value": "12345678",
+									"type": "default"
+								},
+								{
+									"key": "school_certificate_pic",
+									"type": "file",
+									"src": "/C:/Users/Hamza/Desktop/Pending Task.docx"
+								},
+								{
+									"key": "civil_insurance_pic",
+									"type": "file",
+									"src": "/C:/Users/Hamza/Desktop/Web 3 Introduction.docx"
+								},
+								{
+									"key": "rib_pic",
+									"type": "file",
+									"src": "/C:/Users/Hamza/Desktop/something - Copy.txt"
+								},
+								{
+									"key": "secu_pic",
+									"type": "file",
+									"src": "/C:/Users/Hamza/Desktop/something.txt"
+								},
+								{
+									"key": "address",
+									"value": "unknown",
+									"type": "default"
+								},
+								{
+									"key": "nationality",
+									"value": "UK",
+									"type": "default"
+								},
+								{
+									"key": "phone",
+									"value": "2222121222",
+									"type": "default"
+								},
+								{
+									"key": "city",
+									"value": "lahore",
+									"type": "default"
+								},
+								{
+									"key": "zip_code",
+									"value": "879867",
+									"type": "default"
+								},
+								{
+									"key": "country",
+									"value": "UK",
+									"type": "default"
+								},
+								{
+									"key": "years_of_scolarity",
+									"value": "02/04/2019",
+									"type": "default"
+								},
+								{
+									"key": "level_of_studies",
+									"value": "phd",
+									"type": "default"
+								},
+								{
+									"key": "my_school_or_association_list",
+									"value": "punjab school",
+									"type": "default"
+								},
+								{
+									"key": "my_school_or_association_text",
+									"value": "",
+									"type": "default"
+								},
+								{
+									"key": "secu_code",
+									"value": "5666434890789765",
+									"type": "default"
+								},
+								{
+									"key": "bank_name",
+									"value": "Allied Bank",
+									"type": "default"
+								},
+								{
+									"key": "bank_iban",
+									"value": "PK001LHR3930559503",
+									"type": "default"
+								},
+								{
+									"key": "bank_bic",
+									"value": "546546464564",
+									"type": "default"
+								},
+								{
+									"key": "y_field",
+									"value": "somrthing",
+									"type": "default"
+								},
+								{
+									"key": "payment_id",
+									"value": "TX0001",
+									"type": "default"
+								}
+							],
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4700/register-student",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4700",
+							"path": [
+								"register-student"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"test@gmail.com\",\r\n    \"password\": \"12345678\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4700/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4700",
+							"path": [
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Register Business",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "business_logo",
+									"type": "file",
+									"src": "/C:/Users/Hamza/Desktop/Pending Task.docx"
+								},
+								{
+									"key": "fname",
+									"value": "TribeX",
+									"type": "default"
+								},
+								{
+									"key": "siret_no",
+									"value": "78690878976567",
+									"type": "default"
+								},
+								{
+									"key": "email",
+									"value": "tribeX@gmail.com",
+									"type": "default"
+								},
+								{
+									"key": "phone",
+									"value": "4538796054",
+									"type": "default"
+								},
+								{
+									"key": "password",
+									"value": "12345678",
+									"type": "default"
+								},
+								{
+									"key": "address",
+									"value": "unknown",
+									"type": "default"
+								},
+								{
+									"key": "ref_fname",
+									"value": "some1",
+									"type": "default"
+								},
+								{
+									"key": "ref_lname",
+									"value": "some2",
+									"type": "default"
+								},
+								{
+									"key": "ref_email",
+									"value": "some@gmail.com",
+									"type": "default"
+								},
+								{
+									"key": "city",
+									"value": "Karachi",
+									"type": "default"
+								},
+								{
+									"key": "zip_code",
+									"value": "345123",
+									"type": "default"
+								},
+								{
+									"key": "country",
+									"value": "Pakistan",
+									"type": "default"
+								},
+								{
+									"key": "payment_id",
+									"value": "TX000001",
+									"type": "default"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:4700/register-business",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4700",
+							"path": [
+								"register-business"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Register Association",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"fname\": \"asssociation\",\r\n    \"school\": \"punjab-school\",\r\n    \"contact_info\": \"president\",\r\n    \"cont_fname\": \"some\",\r\n    \"cont_lname\": \"one\",\r\n    \"email\": \"someone@gmail.com\",\r\n    \"phone\": \"5860983452\",\r\n    \"message\": \"This is text mesage\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4700/register-association",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4700",
+							"path": [
+								"register-association"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

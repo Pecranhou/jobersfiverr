@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.link{
+  text-decoration: none;
+  text-transform: none;
+}
+.link:hover{
+  text-decoration: none;
+  text-transform: none;
+}
+
+.hide{
+  display: none;
+}

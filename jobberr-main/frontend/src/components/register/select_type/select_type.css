@@ -1,0 +1,111 @@
+/* 1920x1080 */
+.resgisterSelectTypeWrapper{
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    background: #E5E5E5;
+}
+.selectTypeParent{
+    width: 55%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 22%;
+}
+.selectTypeChild1{
+    width: 31%;
+    background: pink;
+    padding: 5%;
+    border-radius: 5%;
+    background: white;
+}
+.selectTypeChild2{
+    width: 31%;
+    padding: 5%;
+    border-radius: 5%;
+    background: white;
+}
+.selectTypeChild3{
+    width: 31%;
+    padding: 5%;
+    border-radius: 5%;
+    background: white;
+}
+.selectTypeLogo{
+    width: 17%;
+}
+.registerSelectDiv{
+    margin-top: 10%;
+}
+.registerDesc{
+    margin-top: 4%;
+    margin-bottom: 3%;
+}
+
+.selectTypeChild1:hover,.selectTypeChild2:hover,.selectTypeChild3:hover{
+    background: #337F81;
+    color: white;
+}
+.selectTypeLogo{
+    background: white;
+}
+
+
+/* 1366x768 */
+@media screen and (max-width: 1366px) {
+    .registerSelectDiv{
+        margin-top: 6%;
+    }
+    .registerDesc{
+        margin-top: 3%;
+        margin-bottom: 2%;
+    }
+}
+
+/* 1280x1024 */
+@media screen and (max-width: 1280px) {
+    .registerSelectDiv{
+        margin-top: 15%;
+    }
+    .registerDesc{
+        margin-top: 4%;
+        margin-bottom: 3%;
+    }
+}
+
+/* 1024x768 */
+@media screen and (max-width: 1024px) {
+    .selectTypeParent{
+        width: 70%;
+        margin-left: 15%;
+    }
+
+}
+
+/* 575x768 */
+@media screen and (max-width: 575px) {
+    .selectTypeParent{
+        flex-direction: column;
+    }
+    .selectTypeChild1{
+        width: 100%;
+        padding: 15%;
+        margin-bottom: 5%;
+
+    }
+    .selectTypeChild2{
+        width: 100%;
+        padding: 15%;
+        margin-bottom: 5%;
+
+    }
+    .selectTypeChild3{
+        width: 100%;
+        padding: 15%;
+        margin-bottom: 20%;
+    }
+
+    .registerDesc{
+        margin-top: 10%;
+        margin-bottom: 6%;
+    }
+}
